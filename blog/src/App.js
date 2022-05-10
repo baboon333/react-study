@@ -2,11 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  let post = '강남 우동 맛집';
+asdfsdafasdf
   return (
     <div className="App">
       <div className="black-nav">
-        <div>개발 Blog</div>
+        <h4 style={ {color : 'red', fontSize : '16px'} }
+        >개발 Blog</h4>
       </div>
+      <h4>{ post }</h4>
     </div>
   );
 }
